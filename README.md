@@ -17,7 +17,8 @@ bersih, responsif, dan cepat dengan tema gelap modern.
 
 ## Fitur
 
-- Desain responsif (mobile, tablet, desktop) dengan tema gelap modern
+- **Mode terang & gelap** dengan tombol toggle, tersimpan otomatis (localStorage) dan mengikuti preferensi sistem (`prefers-color-scheme`)
+- Desain responsif (mobile, tablet, desktop) dengan tema modern dan kontras warna yang disesuaikan per mode
 - Animasi halus: typing effect, reveal on scroll, marquee tech stack, dan counter statistik
 - Navigasi sticky dengan menu mobile dan indikator section aktif
 - Progress bar scroll dan tombol kembali ke atas
