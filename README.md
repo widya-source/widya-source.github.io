@@ -1,8 +1,9 @@
 # Widya Aprilia — Portofolio Pribadi
 
-Website portofolio pribadi **Widya Aprilia**, fresh graduate S1 Teknik Informatika
-Universitas PGRI Semarang. Menampilkan profil, keahlian teknis, 7 project pilihan,
-riwayat pendidikan, sertifikat & pelatihan, serta pengalaman organisasi.
+Website portofolio pribadi **Widya Aprilia** — _Fresh Graduate · Software / Web / Data_.
+Lulusan S1 Teknik Informatika Universitas PGRI Semarang. Menampilkan profil, keahlian
+teknis, 7 project pilihan, riwayat pendidikan, sertifikat & pelatihan, serta pengalaman
+organisasi.
 
 **Live Demo:** https://widya-source.github.io/
 
@@ -93,4 +94,4 @@ Setiap `push` ke branch `main` akan otomatis memperbarui situs.
 
 ---
 
-© 2026 Widya Aprilia. Dibuat dengan dedikasi untuk dunia teknologi.
+© 2026 · Widya Aprilia
