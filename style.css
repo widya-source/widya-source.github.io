@@ -94,7 +94,6 @@ body::before{
 .btn.ghost{color:var(--muted)}
 .btn.ghost:hover{color:var(--text)}
 .btn.big{padding:15px 30px;font-size:15px}
-.cv{font-size:13px}
 
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:.3s}
@@ -425,7 +424,6 @@ footer p{line-height:1.6}
   .certs{grid-template-columns:1fr 1fr}
   .orgs{grid-template-columns:1fr}
   .contact-cards{grid-template-columns:1fr 1fr}
-  .nav-actions .cv{display:none}
 }
 @media(max-width:760px){
   #menu{
