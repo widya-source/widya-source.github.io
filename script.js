@@ -21,6 +21,17 @@
     })
   );
 
+  /* ---------- theme toggle (terang / gelap) ---------- */
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) { /* ignore */ }
+    });
+  }
+
   /* ---------- typewriter ---------- */
   const roles = [
     'Software Developer',
