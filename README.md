@@ -1,7 +1,5 @@
 # Portfolio — Widya Aprilia
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cdd064aa-e858-4ea1-829e-dc21b8022316/deploy-status)](https://myportofolio20.netlify.app)
-
 Portofolio **fresh graduate Teknik Informatika** dengan tema gelap modern, lengkap dengan
 animasi (typing effect, reveal on scroll, marquee logo tech stack, counter statistik, cursor glow)
 dan **logo resmi teknologi** (Python, JavaScript, PHP, HTML, CSS, Flask, Laravel, CodeIgniter,
@@ -42,23 +40,4 @@ portfolio_fresh_graduate/
 ## Menjalankan website
 Cukup buka `index.html` di browser (tidak perlu server).
 
-## Yang perlu diisi (satu-satunya placeholder tersisa)
-- Link tiap project di `index.html` (sudah mengarah ke `github.com/widya-source/...`) — sesuaikan nama repo dengan yang asli.
 
-## CV & Portofolio (PDF)
-- **CV** (`assets/CV_Widya_Aprilia.pdf`) — ringkasan tertulis riwayat hidup, pendidikan, dan pengalaman kerja (format ATS, 3 halaman). Sudah terhubung ke tombol **Download CV**.
-- **Portofolio** (`assets/Portofolio_Widya_Aprilia.pdf`) — kumpulan bukti karya & proyek (3 halaman): tiap karya menjelaskan masalah, solusi, hasil, dan link repository.
-Untuk mengubah isinya: edit file `_src.html` terkait, lalu render ulang ke PDF
-(beri tahu saya, atau buka file HTML di Chrome lalu File → Print → Save as PDF).
-
-## Deploy online (buat portofolio jadi publik)
-Gunakan **GitHub Pages** (gratis) — URL jadi `https://widya-source.github.io/`:
-1. Buat repository di GitHub dengan nama **`widya-source.github.io`** (harus persis: `<username>.github.io`).
-2. Upload isi folder `myportofolio` (index.html, style.css, script.js, assets/) ke repo tersebut.
-3. Di repo → **Settings → Pages** → Source: *Deploy from a branch* → pilih branch `main` / `/ (root)` → **Save**.
-4. Tunggu 1–2 menit, lalu buka `https://widya-source.github.io/`.
-
-Alternatif: Netlify / Vercel (drop folder langsung ke dashboard, dapat URL otomatis).
-
-Fitur: responsive, navigasi sticky + mobile menu, progress bar scroll, tombol kembali ke atas,
-dukungan `prefers-reduced-motion`, dan fallback `<noscript>`.
